@@ -1,0 +1,192 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<!-- Required meta tags -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<!--Font links-->
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
+	<!-- CSS Links -->
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/media.css">
+	<title>Bootstrap | Layout</title>
+</head>
+
+<body>
+  <!--menu-->
+<section class="navbar">
+	<div class="container">
+		<div class="row">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="layout.html">Layout</a></li>
+                <li><a href="content.html">Content</a></li>
+                <li><a href="screenwise.html">Screenwise Layout</a></li>
+            </ul>
+        </div>
+        </div>
+</section>
+
+	<section class="header">
+	<div class="container">
+		<h1 class="display-3">Bootstrap Grid system</h1>
+		<h5>Use our powerful mobile-first flexbox grid to build layouts of all shapes and sizes thanks to a twelve column system, five default responsive tiers, Sass variables and mixins, and dozens of predefined classes.</h5>
+		<p>Bootstrap’s grid system uses a series of containers, rows, and columns to layout and align content. It’s built with flexbox and is fully responsive. Below is an example and an in-depth look at how the grid comes together.</p>
+		</div>
+</section>
+	<!--One column -->
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<div class="box">1 row - no column</div>
+			</div>
+		</div>
+	</div>
+	<!--Two column -->
+	<div class="container">
+		<div class="row">
+			<div class="col-md-6">
+				<div class="box">1 of 2 (col-md-6)</div>
+			</div>
+			<div class="col-md-6">
+				<div class="box">2 of 2 (col-md-6)</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-6">
+				<div class="box"> Fixed Two column 50% (col-6)</div>
+			</div>
+			<div class="col-6">
+				<div class="box"> Fixed Two column 50% (col-6)</div>
+			</div>
+		</div>
+	</div>
+	<!--Two column offset-->
+	<div class="container">
+		<div class="row">
+			<div class="col-md-4">
+				<div class="box">1 of 2 </div>
+			</div>
+			<div class="offset-md-4 col-md-4">
+				<div class="box">2 of 2 - offset-4 </div>
+			</div>
+		</div>
+	</div>
+	<!--Three column -->
+	<div class="container">
+		<div class="row">
+			<div class="col-md-4">
+				<div class="box">1 of 3</div>
+			</div>
+			<div class="col-md-4">
+				<div class="box">2 of 3</div>
+			</div>
+			<div class="col-md-4">
+				<div class="box">3 of 3</div>
+			</div>
+		</div>
+	</div>
+	<!--Four column -->
+	<div class="container">
+		<div class="row">
+			<div class="col-md-8">
+				<div class="box">8 of 12</div>
+			</div>
+			<div class="col-md-4">
+				<div class="box">4 of 12</div>
+			</div>
+		</div>
+	</div>
+	<!--Five column by flex -->
+	<div class="container">
+		<div class="row">
+			<div class="col-md">
+				<div class="box">1 of 5 (Flex)</div>
+			</div>
+			<div class="col-md">
+				<div class="box">2 of 5 (Flex)</div>
+			</div>
+			<div class="col-md">
+				<div class="box">3 of 5 (Flex)</div>
+			</div>
+			<div class="col-md">
+				<div class="box">4 of 5 (Flex)</div>
+			</div>
+			<div class="col-md">
+				<div class="box">5 of 5 (Flex)</div>
+			</div>
+		</div>
+	</div>
+	<!--Forteen column by flex -->
+	<div class="container">
+		<div class="row">
+			<div class="col-md">
+				<div class="box">1 of 1 (Flex)</div>
+			</div>
+			<div class="col-md">
+				<div class="box">2 of 2 (Flex)</div>
+			</div>
+			<div class="col-md">
+				<div class="box">3 of 3 (Flex)</div>
+			</div>
+			<div class="col-md">
+				<div class="box">4 of 4 (Flex)</div>
+			</div>
+			<div class="col-md">
+				<div class="box">5 of 5 (Flex)</div>
+			</div>
+			<div class="col-md">
+				<div class="box">6 of 6 (Flex)</div>
+			</div>
+			<div class="col-md">
+				<div class="box">7 of 7 (Flex)</div>
+			</div>
+		</div>
+	</div>
+	<!--
+    
+    <!--Grid & Flex mixed use -->
+	<div class="container">
+		<div class="row">
+			<div class="col-md-2">
+				<div class="box"> grid-col-2 of 12 </div>
+			</div>
+			<div class="col-md">
+				<div class="box"> flex- box </div>
+			</div>
+			<div class="col-md">
+				<div class="box"> flex- box </div>
+			</div>
+			<div class="col-md-2">
+				<div class="box"> grid-col-2 of 12 </div>
+			</div>
+		</div>
+	</div>
+	<!--Grid & Flex end -->
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-4 col-md-5 col-sm-3">
+				<div class="box"> responsive grid layout (col-lg-4 col-md-5 col-sm-3) </div>
+			</div>
+			<div class="col-lg-4 col-md-4 col-sm-4">
+				<div class="box"> responsive grid layout (col-lg-4 col-md-4 col-sm-4) </div>
+			</div>
+			<div class="col-lg-4 col-md-3 col-sm-5">
+				<div class="box"> responsive grid layout (ol-lg-4 col-md-3 col-sm-5) </div>
+			</div>
+		</div>
+	</div>
+	
+	
+	
+	
+	<!-- JS Links -->
+	<script src="js/jquery-3.5.1.min.js"></script>
+	<script src="js/popper.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/script.js"></script>
+</body>
+
+</html>
