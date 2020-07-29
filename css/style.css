@@ -4,24 +4,96 @@
     font-family: 'Poppins', sans-serif;
 }
 
-.header, .hero, .body, .bar, .footer{
-	background-color: bisque;
+.header, .hero, .body, .bar, .footer, .vertical-alignment, .flex-use{
+	background-color: transparent;
 	margin-bottom: 5x;
 }
 
-.vertical-alignment {
-	background-color: floralwhite;
-	margin: 5x 0;
+
+.myanim {
+  min-width: 100px;
+  height: 100px;
+  background-color: coral;
+  color: white;
+  animation: myanimation 3s infinite;
 }
 
-.box-1{
-    min-height: 100px;
+.myanim-i {
+  min-width: 100px;
+  height: 100px;
+  background-color: red;
+  color: white;
+  animation: myanim 3s infinite;
+}
+
+
+/* 1st right 2nd bottom 3rd blur(70px) 4th spread(20px) */ 
+
+@keyframes myanimation {
+  50% {box-shadow: 20px 20px 70px 20px grey;}
+}
+
+@keyframes myanim {
+  50% {box-shadow: 0px -180px 70px 20px white inset;}
+}
+
+
+.box-2{
+	min-height: 100px;
     margin-bottom: 5px;
-	border: 2px solid green;
-	border-radius: 3px;
-	text-align: center;
-	font-size: 25px;
-	text-transform: capitalize;
+    padding-top: 30px;
+    color: aliceblue;
+    background-color: crimson;
+    text-align: center;
+    text-transform: capitalize;
+}
+.box-3{
+	min-height: 100px;
+    margin-bottom: 5px;
+    padding-top: 30px;
+    background-color:#f0ad4e;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.box-4{
+    width: 100px;
+    height: 100px;
+	margin-bottom: 5px;
+    padding-top: 30px;
+    background-color:#4385f0;
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 13px;
+}
+
+.box-5{
+    min-width: 200px;
+    min-height: 50px;
+    margin: 5px;
+    padding: 10px;
+    background-color: #4385f0;
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 18px;
+}
+
+.box-6{
+    min-width: 200px;
+    height: 50px;
+    margin: 10px;
+    padding: 10px;
+    text-transform: capitalize;
+    font-size: 18px;
+    border: 1px solid white;
+}
+
+.box-7{
+    min-height: 200px;
+    text-transform: capitalize;
+    font-size: 18px;
+    border: 1px solid white;
+    background-color: aqua;
 }
 
 .red{
@@ -30,8 +102,12 @@
 
 .box{
     margin-bottom: 5px;
-    color: white;
-	background-color: lemonchiffon;
+    padding-top: 20px;
+    color: black;
+    border: 1px solid crimson;
+    min-height: 100px;
+    text-align: center;
+    text-transform: capitalize;
 }
 .box-1{
     min-height: 100px;
@@ -40,10 +116,30 @@
 	border: 2px solid green;
 	border-radius: 3px;
 	text-align: center;
+	font-size: 18px;
 }
+
+.box-10{
+    min-width: 100px;
+    min-height: 100px;
+    margin-bottom: 15px;
+	text-align: center;
+	font-size: 18px;
+}
+
+.text-box{
+    width: 400px;
+    height: 200px;
+    margin-bottom: 15px;
+	text-align: justify;
+	font-size: 18px;
+    overflow: hidden;
+}
+
 
 .navbar {
 	background-color: lightgoldenrodyellow;
+    margin-bottom: 100px;
 }
 
 .navbar ul {
